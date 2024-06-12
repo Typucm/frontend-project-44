@@ -1,11 +1,12 @@
 {
-  "dependencies": {
-    "http-server": "^14.1.1"
+ "dependencies": {
+   "http-server": "^14.1.1"
   },
   "name": "@hexlet/code",
   "description": "[![Actions Status](https://github.com/Typucm/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Typucm/frontend-project-44/actions)",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,3 +22,6 @@
   },
   "homepage": "https://github.com/Typucm/frontend-project-44#readme"
 }
+
+
+
