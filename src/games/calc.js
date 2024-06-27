@@ -37,4 +37,6 @@ const generateQuestion = () => {
 }
   console.log(`Congratulations, ${userName}`);
 };
-console.log(generateQuestion());
+
+export default generateQuestion;
+
