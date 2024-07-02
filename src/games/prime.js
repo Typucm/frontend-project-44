@@ -1,9 +1,8 @@
 import readlineSync from 'readline-sync';
 import loopAndAnswer, { randomNumber } from '../index.js';
-import { userName } from '../index.js';
 
 const ruls = 'Answer "yes" if the number is even, otherwise answer "no".';
-const isPrime = (num) => {
+const isPrimeNumber = (num) => {
     if (num < 2) {
         return false;
     }
@@ -16,8 +15,8 @@ const isPrime = (num) => {
 }
 const getRandomPrime = () =>{
     const task = randomNumber(1, 100);
-    const correctAnswer = isPrime(task) ? 'yes' : 'no';
+    const correctAnswer = isPrimeNumber(task) ? 'yes' : 'no';
     return [task, correctAnswer];
-}
-loopAndAnswer(ruls, getRandomPrime);
-export default isPrime;
+};
+
+export default () => loopAndAnswer(ruls, getRandomPrime)

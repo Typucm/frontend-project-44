@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import loopAndAnswer, { userName } from '../index.js';
+import loopAndAnswer  from '../index.js';
 import { randomNumber } from '../index.js';
 
 const ruls = 'What is the result of the expression?';
@@ -19,13 +19,12 @@ const calculate = (a, b, op) => {
 };
 
 const generateQuestion = () => {
-  const a = randomNumber(1, 10);
-  const b = randomNumber(1, 10);
-  const op = operatores[randomNumber(0, operatores.length)];
-  const task = `${a} ${op} ${b}`;
-  const correctAnswer = calculate(a, b, op);
+  const firstNumber = randomNumber(1, 10);
+  const secondNumber = randomNumber(1, 10);
+  const operator = operatores[randomNumber(0, operatores.length)];
+  const task = `${firstNumber} ${operator} ${secondNumber}`;
+  const correctAnswer = calculate(firstNumber, secondNumber, operator);
       return [task, correctAnswer];
     };
-    loopAndAnswer(ruls, generateQuestion)
-
-export default generateQuestion;
+    
+export default () => loopAndAnswer(ruls, generateQuestion);

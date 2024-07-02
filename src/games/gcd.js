@@ -1,25 +1,22 @@
 import readlineSync from 'readline-sync';
-import { userName } from '../index.js';
 import { randomNumber } from '../index.js';
 import loopAndAnswer from '../index.js';
 
 const ruls = 'Find the greatest common divisor of given numbers.';
 
-const gcdGame = () => {
-const gcd = (a, b) => {
+const getGcdGame = (a, b) => {
     if (b === 0) {
         return a;
     } else {
-        return gcd(b, a % b);
+        return getGcdGame(b, a % b);
     }
 };
-const random = () => {
+const makeQuest = () => {
     const a = randomNumber(1, 100);
     const b = randomNumber(1, 100);
     const task = `${a} ${b}`;
-    const correctAnswer = String(gcd(a, b))
+    const correctAnswer = String(getGcdGame(a, b))
     return [task, correctAnswer];
 }
-loopAndAnswer(ruls, random)
-};
-export default gcdGame;
+
+export default () => loopAndAnswer(ruls, makeQuest)

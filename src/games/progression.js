@@ -1,5 +1,5 @@
 import readlineSync, { question } from 'readline-sync';
-import loopAndAnswer, { userName } from '../index.js';
+import loopAndAnswer from '../index.js';
 import { randomNumber } from '../index.js';
 
 const ruls = 'What number is missing in the progression?'
@@ -10,7 +10,7 @@ const arithmeticProgression = (start, step, length) => {
     }
     return result;
     };
-    const generateProgression = () => {
+    const getGenerateProgression = () => {
     const start = randomNumber(1, 50);
     const step = randomNumber(1, 5);
     const length = randomNumber(10, 20);
@@ -19,7 +19,6 @@ const arithmeticProgression = (start, step, length) => {
     task[length - 8] = '..';
     const result = correctAnswer;
     return [task.join(' '), result];
-    } 
-    loopAndAnswer (ruls, generateProgression);
+    };
 
-export default generateProgression
+export default () => loopAndAnswer(ruls, getGenerateProgression)
