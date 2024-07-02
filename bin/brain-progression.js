@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import geneateProgression from "../src/games/progression.js";
+import generateProgression from "../src/games/progression.js";
 
-geneateProgression();
+generateProgression();
