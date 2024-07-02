@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import loopAndAnswer, { randomNumber } from '../index.js';
 
-const ruls = 'Answer "yes" if the number is even, otherwise answer "no".';
+const ruls = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrimeNumber = (num) => {
     if (num < 2) {
         return false;
