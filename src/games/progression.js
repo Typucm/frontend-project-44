@@ -18,7 +18,7 @@ const arithmeticProgression = (start, step, length) => {
     const correctAnswer = task[length - 8];
     task[length - 8] = '..';
     const result = correctAnswer;
-    return [task.join (' '), result];
+    return [task.join(' '), result];
     } 
     loopAndAnswer (ruls, geneateProgression);
 

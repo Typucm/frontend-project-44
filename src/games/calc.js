@@ -5,7 +5,7 @@ import { randomNumber } from '../index.js';
 const ruls = 'What is the result of the expression?';
 
 const operatores = ['+', '-', '*'];
-const calculateExpr = (a, b, op) => {
+const calculate = (a, b, op) => {
   switch (op) {
     case '+':
       return a + b;
@@ -22,7 +22,7 @@ const generateQuestion = () => {
   const b = randomNumber(1, 10);
   const op = operatores[randomNumber(0, operatores.length)];
   const task = `${a} ${op} ${b}`;
-  const correctAnswer = calculateExpr(a, b, op);
+  const correctAnswer = calculate(a, b, op);
       return [task, correctAnswer];
     };
     loopAndAnswer(ruls, generateQuestion)
