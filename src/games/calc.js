@@ -17,6 +17,7 @@ const calculate = (a, b, op) => {
       return null;
   }
 };
+
 const generateQuestion = () => {
   const a = randomNumber(1, 10);
   const b = randomNumber(1, 10);
@@ -28,4 +29,3 @@ const generateQuestion = () => {
     loopAndAnswer(ruls, generateQuestion)
 
 export default generateQuestion;
-
