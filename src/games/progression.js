@@ -10,7 +10,7 @@ const arithmeticProgression = (start, step, length) => {
     }
     return result;
     };
-    const geneateProgression = () => {
+    const generateProgression = () => {
     const start = randomNumber(1, 50);
     const step = randomNumber(1, 5);
     const length = randomNumber(10, 20);
@@ -20,6 +20,6 @@ const arithmeticProgression = (start, step, length) => {
     const result = correctAnswer;
     return [task.join(' '), result];
     } 
-    loopAndAnswer (ruls, geneateProgression);
+    loopAndAnswer (ruls, generateProgression);
 
-export default geneateProgression
+export default generateProgression
