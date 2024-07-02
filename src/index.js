@@ -22,7 +22,7 @@ const loopAndAnswer = (ruls, taskAndAnswer) => {
       return ;
     }
 }
-  console.log(`Congratulations, ${userName}`);
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default loopAndAnswer;
