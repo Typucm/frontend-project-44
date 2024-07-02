@@ -6,7 +6,8 @@ export const randomNumber = (min, max) => {
 
 const attempts = 3;
 const loopAndAnswer = (ruls, taskAndAnswer) => {
-  const userName = readlineSync.question('Welcome to the Brain Games!\nMay I have your name? ');
+  console.log('Welcome to the Brain Games!')
+  const userName = readlineSync.question('May I have your name? ');
   console.log('Hi, ' + userName + '!');
   console.log(ruls);
   for ( let i = 0; i < attempts; i += 1) {
