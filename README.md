@@ -101,7 +101,7 @@ brain-progression
 ```
 [![asciicast](https://asciinema.org/a/i0m6Uvpclyq9NZjWDUM0732yc.svg)](https://asciinema.org/a/i0m6Uvpclyq9NZjWDUM0732yc)
 
-## Brain Calc. Калькулятор. Арифметические выражения, которые необходимо вычислить.
+## [Brain Calc. Калькулятор. Арифметические выражения, которые необходимо вычислить.](#brain-calc-калькулятор-арифметические-выражения-которые-необходимо-вычислить)
 Команда запуска:
 ```bash
 brain-calc
