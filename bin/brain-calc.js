@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import generateQuestion from "../src/games/calc.js";
+import generateQuestion from '../src/games/calc.js';
 
-generateQuestion()
+generateQuestion();
