@@ -1,6 +1,4 @@
-import readlineSync from 'readline-sync';
-import loopAndAnswer  from '../index.js';
-import { randomNumber } from '../index.js';
+import loopAndAnswer, { randomNumber } from '../index.js';
 
 const ruls = 'What is the result of the expression?';
 
@@ -24,7 +22,7 @@ const generateQuestion = () => {
   const operator = operatores[randomNumber(0, operatores.length)];
   const task = `${firstNumber} ${operator} ${secondNumber}`;
   const correctAnswer = calculate(firstNumber, secondNumber, operator);
-      return [task, correctAnswer];
-    };
-    
+  return [task, correctAnswer];
+};
+
 export default () => loopAndAnswer(ruls, generateQuestion);
