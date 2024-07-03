@@ -43,7 +43,7 @@ brain-progression
 brain-games
 ```
 
-## Установка
+# Установка
 !!!!Обязательно наличие Node.js и npm!!!!
 
 ### 1. Клонируйте данный репозиторий любым из трёх способов ниже.
@@ -60,7 +60,7 @@ GitHub CLI
 ```bash
 gh repo clone hexlet-boilerplates/nodejs-package
 ```
-### 2. Установка.
+### 2. Установка пакета
 ```bash
 make install
 ```
@@ -73,9 +73,9 @@ make link
 
 
 
-## Пример игры:
+# Пример игры:
 
-## Brain-even. Определение четного числа.
+### Brain-even. Определение четного числа.
 Команда запуска:
 ```bash
 brain-even
@@ -83,7 +83,7 @@ brain-even
 [![asciicast](https://asciinema.org/a/tT8veoOLhw9X4RIr0TogPt61D.svg)](https://asciinema.org/a/tT8veoOLhw9X4RIr0TogPt61D)
 Назад к [содержание](#содержание)
 
-## Brain-gcd. Определение наибольшего общего делителя.
+### Brain-gcd. Определение наибольшего общего делителя.
 Команда запуска:
 ```bash
 brain-gcd
@@ -91,7 +91,7 @@ brain-gcd
 [![asciicast](https://asciinema.org/a/OpguXn73mvExeL7NnGPXs0MPX.svg)](https://asciinema.org/a/OpguXn73mvExeL7NnGPXs0MPX)
 Назад к [содержание](#содержание)
 
-## Brain-prime. Определение простого числа.
+### Brain-prime. Определение простого числа.
 Команда запуска:
 ```bash
 brain-prime
@@ -99,7 +99,7 @@ brain-prime
 [![asciicast](https://asciinema.org/a/va7Z3QhhYc1e3n0wOvSXQPqoP.svg)](https://asciinema.org/a/va7Z3QhhYc1e3n0wOvSXQPqoP)
 Назад к [содержание](#содержание)
 
-## Brain-progression. Прогрессия. Поиск пропущенных чисел в последовательности чисел.
+### Brain-progression. Прогрессия. Поиск пропущенных чисел в последовательности чисел.
 Команда запуска:
 ```bash
 brain-progression
@@ -107,7 +107,7 @@ brain-progression
 [![asciicast](https://asciinema.org/a/i0m6Uvpclyq9NZjWDUM0732yc.svg)](https://asciinema.org/a/i0m6Uvpclyq9NZjWDUM0732yc)
 Назад к [содержание](#содержание)
 
-## Brain Calc. Калькулятор. Арифметические выражения, которые необходимо вычислить.
+### Brain Calc. Калькулятор. Арифметические выражения, которые необходимо вычислить.
 Команда запуска:
 ```bash
 brain-calc
