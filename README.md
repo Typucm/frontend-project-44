@@ -89,7 +89,7 @@ brain-even
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/OpguXn73mvExeL7NnGPXs0MPX.svg)](https://asciinema.org/a/OpguXn73mvExeL7NnGPXs0MPX)
-Назад к [содержание](#соедржание)
+Назад к [содержание](#содержание)
 
 ## Brain-prime. Определение простого числа.
 Команда запуска:
@@ -97,7 +97,7 @@ brain-gcd
 brain-prime
 ```
 [![asciicast](https://asciinema.org/a/va7Z3QhhYc1e3n0wOvSXQPqoP.svg)](https://asciinema.org/a/va7Z3QhhYc1e3n0wOvSXQPqoP)
-Назад к [содержание](#соедржание)
+Назад к [содержание](#содержание)
 
 ## Brain-progression. Прогрессия. Поиск пропущенных чисел в последовательности чисел.
 Команда запуска:
@@ -105,7 +105,7 @@ brain-prime
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/i0m6Uvpclyq9NZjWDUM0732yc.svg)](https://asciinema.org/a/i0m6Uvpclyq9NZjWDUM0732yc)
-Назад к [содержание](#соедржание)
+Назад к [содержание](#содержание)
 
 ## Brain Calc. Калькулятор. Арифметические выражения, которые необходимо вычислить.
 Команда запуска:
@@ -113,4 +113,4 @@ brain-progression
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/YHRsXqSzq07QlCBCkgCG1ru8f.svg)](https://asciinema.org/a/YHRsXqSzq07QlCBCkgCG1ru8f)
-Назад к [содержание](#соедржание)
+Назад к [содержание](#содержание)
