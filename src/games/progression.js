@@ -1,4 +1,5 @@
-import loopAndAnswer, { randomNumber } from '../index.js';
+import runGame from '../index.js';
+import randomNumber from '../random.js';
 
 const ruls = 'What number is missing in the progression?';
 const arithmeticProgression = (start, step, length) => {
@@ -19,4 +20,4 @@ const getGenerateProgression = () => {
   return [task.join(' '), result];
 };
 
-export default () => loopAndAnswer(ruls, getGenerateProgression);
+export default () => runGame(ruls, getGenerateProgression);

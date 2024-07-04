@@ -1,4 +1,5 @@
-import loopAndAnswer, { randomNumber } from '../index.js';
+import runGame from '../index.js';
+import randomNumber from '../random.js';
 
 const ruls = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrimeNumber = (num) => {
@@ -18,4 +19,4 @@ const getRandomPrime = () => {
   return [task, correctAnswer];
 };
 
-export default () => loopAndAnswer(ruls, getRandomPrime);
+export default () => runGame(ruls, getRandomPrime);

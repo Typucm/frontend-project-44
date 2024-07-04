@@ -1,4 +1,5 @@
-import loopAndAnswer, { randomNumber } from '../index.js';
+import runGame from '../index.js';
+import randomNumber from '../random.js';
 
 const ruls = 'What is the result of the expression?';
 
@@ -16,7 +17,7 @@ const calculate = (a, b, op) => {
   }
 };
 
-const generateQuestion = () => {
+const startCalcGame = () => {
   const firstNumber = randomNumber(1, 10);
   const secondNumber = randomNumber(1, 10);
   const operator = operatores[randomNumber(0, operatores.length)];
@@ -25,4 +26,4 @@ const generateQuestion = () => {
   return [task, correctAnswer];
 };
 
-export default () => loopAndAnswer(ruls, generateQuestion);
+export default () => runGame(ruls, startCalcGame);

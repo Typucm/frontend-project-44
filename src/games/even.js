@@ -1,11 +1,13 @@
-import loopAndAnswer, { randomNumber } from '../index.js';
+import runGame from '../index.js';
+import randomNumber from '../random.js';
+
+const isEven = (number) => number % 2 === 0;
 
 const ruls = 'Answer "yes" if the number is even, otherwise answer "no".';
 const getEvenNum = () => {
   const ranNum = randomNumber(1, 100);
-  const correctAnswer = ranNum % 2 === 0 ? 'yes' : 'no';
-  const task = ranNum.toString();
-  return [task, correctAnswer];
+  const correctAnswer = isEven(ranNum) ? 'yes' : 'no';
+  return [ranNum.toString(), correctAnswer];
 };
 
-export default () => loopAndAnswer(ruls, getEvenNum);
+export default () => runGame(ruls, getEvenNum);
