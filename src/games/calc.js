@@ -1,5 +1,5 @@
 import runGame from '../index.js';
-import randomNumber from '../random.js';
+import getRandomNumber from '../random.js';
 
 const ruls = 'What is the result of the expression?';
 
@@ -18,9 +18,9 @@ const calculate = (a, b, op) => {
 };
 
 const startCalcGame = () => {
-  const firstNumber = randomNumber(1, 10);
-  const secondNumber = randomNumber(1, 10);
-  const operator = operatores[randomNumber(0, operatores.length)];
+  const firstNumber = getRandomNumber(1, 10);
+  const secondNumber = getRandomNumber(1, 10);
+  const operator = operatores[getRandomNumber(0, operatores.length)];
   const task = `${firstNumber} ${operator} ${secondNumber}`;
   const correctAnswer = calculate(firstNumber, secondNumber, operator);
   return [task, correctAnswer];
